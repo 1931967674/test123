@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/public.css" />
+    <link rel="stylesheet" href="../css/1.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <script src="../js/jquery.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <!-- 顶部工具栏开始 -->
+        <div class="header">
+            <div class="margin">
+                <div class="logo">
+                    <img src="../img/logo.PNG" />
+                </div>
+                <div class="h-hit">
+                    <a href="#">登录</a>
+                </div>
+            </div>
+        </div>
+        <!-- 表单登录 -->
+        <form action="" method="post">
+            <div class="login">
+                <div class="warp">
+                    <div class="fl"></div>
+                    <div class="fr">
+                        <P class="right"></P>
+                        <div class="login-main">
+                            <p>
+                                <strong>欢迎登录</strong>
+                                <span>
+                                    还没有账号？
+                                    <a href="resite.html" class="green">立即注册</a>
+                                </span>
+                            </p>
+                            <p>
+                                <span class="input-phone-icon">&nbsp;</span>
+                                <input class="input-key-phone" id="user" placeholder="用户名" type="text" />
+                            </p>
+
+                            <p>
+                                <span class="input-phone-icon">&nbsp;</span>
+                                <input class="input-key-phone" id="pass" placeholder="密码" type="text" />
+                            </p>
+
+                            <p>
+                                <span class="input-phone-icon">&nbsp;</span>
+                                <input class="input-key-phone" id="pwd" placeholder="确认密码" type="text" />
+                            </p>
+
+                            <span style="float:right;line-height:30px;">
+                                <a href="" class="gray">忘记密码？</a>
+                            </span>
+
+                            <p>
+                                <a id="btnLogin" class="btn-green-l">登&nbsp;录</a>
+                            </p>
+                            <p>第三方登录</p>
+                            <img src="../img/denglu.PNG">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+<script>
+
+    // class Deng {
+    //     constructor() {
+    //         this.pwd = $('#pwd')[0].value;
+    //         //初始化方法
+    //         this.int()
+    //     }
+    //     int() {
+    //         //读取
+    //         var  res = JSON.parse(localStorage.getItem("user")) || [];
+    //         // console.log(this.res);
+    //         //判断用户名是否存在
+    //         this.load(res);
+    //     }
+    //     load(res) {
+    //         var that = this;
+    //         $('#btnLogin').on("click", function () {
+    //             console.log(res);
+    //             // console.log(1);
+    //             for (var i = 0; i < res.length; i++) {
+    //                 if ($('#user')[0].value == res[i].user &&$('#pass')[0].value == res[i].pass) {
+    //                     alert("登陆成功！");
+    //                     console.log(11);
+    //                 }
+    //             }
+
+
+    //         })
+    //     }
+
+
+    // }
+    // new Deng();
+
+
+    function Deng() {
+        var res = JSON.parse(localStorage.getItem("user")) || [];
+        //绑定点击事件
+        $('#btnLogin').on("click", function () {
+            for(var i=0;i<res.length;i++){
+                //判断用户名是否跟存的数据一致
+                if($("#user")[0].value == res[i].user  && $("#pass")[0].value == res[i].pass){
+                    alert("登录成功");
+                    $('#btnLogin')[0].href="index.html";
+                }
+            }
+            
+
+        })
+
+        }
+
+    Deng();
+
+
+
+
+
+
+
+
+</script>
+
+</html>

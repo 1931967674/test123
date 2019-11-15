@@ -1,0 +1,178 @@
+/* 头部 */
+.header {
+    width: 1100px;
+    height: 78px;
+}
+
+.header .warp {
+    height: 58px;
+    padding: 15px 0 5px 0;
+}
+
+/* logo图标 */
+.header .logo {
+    float: left;
+    width: 280px;
+    height: 50px;
+}
+
+.header .logo img {
+    width: 145px;
+    line-height: 50px;
+}
+
+/* 搜索框 */
+.header .search {
+    width: 528px;
+    height: 58px;
+    float: left;
+    line-height: 26px;
+}
+
+.search .search-input {
+    float: left;
+    width: 425px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    border: 1px solid #008842;
+    background: #e0e0e0;
+}
+
+.search .search-btn {
+    float: left;
+    display: block;
+    width: 81px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    background: #008842;
+}
+
+/* 轮播图 */
+.cook{
+    position: relative;
+    top: 0;
+    left:0px;
+}
+.box {
+    width: 1130px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgbox {
+    width: 1130px;
+    height: 420px;
+}
+
+.imgbox img {
+    width: 1130px;
+    height: 500px;
+    position: absolute;
+    left: 1130px;
+    top: 0
+}
+
+.imgbox img:nth-child(1) {
+    left: 0;
+}
+
+.btns input {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: rgba(200, 200, 200, 0.6);
+    position: absolute;
+    top: 130px;
+}
+.shop ul li.active{background:rgb(194, 150, 150);position: relative;top:0;left:0;}
+
+
+.cont p{height:300px;display: none;float: right;width:260px;position: absolute;left:160px;top:0;}
+.cont p{background: grey;}
+
+
+#left {
+    left: 0
+}
+
+#right {
+    right: 0
+}
+.shop {
+    float: left;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 140px;
+    top: 0;
+    background: green;
+    color: #ccc;
+    text-align: center;
+    line-height: 40px;
+}
+.shop ul li {
+    background: #f7f9f8;
+    color: black;
+}
+.shop ul .te {
+    background: green;
+    color: honeydew;
+}
+
+/* 楼层生鲜 */
+.fl-title {
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 10px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.F1 .fl-title h2 {
+    display: inline-block;
+}
+
+.F1 .fl-s i {
+    display: inline-block;
+    margin: 0 5px;
+    height: 32px;
+    line-height: 28px;
+}
+
+.ceter {
+    height: 464px;
+    z-index: 2;
+    /* overflow: hidden; */
+
+
+}
+
+.ceter .left {
+    width: 175px;
+    height: 464px;
+    float: left;
+}
+
+.ceter ul {
+    float: left;
+    width: 924px;
+    background: #fff;
+    height: 464px;
+}
+
+.ceter ul li {
+    float: left;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #d5d5d5;
+}

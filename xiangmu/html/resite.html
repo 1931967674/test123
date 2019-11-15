@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/public.css" />
+    <link rel="stylesheet" href="../css/1.css" />
+    <link rel="stylesheet" href="../css/resite.css" />
+</head>
+
+<body>
+    <!-- 顶部工具栏开始 -->
+    <div class="header">
+        <div class="margin">
+            <div class="logo">
+                <img src="../img/logo.PNG" />
+            </div>
+            <div class="h-hit">
+                <a href="#">注册</a>
+            </div>
+        </div>
+    </div>
+    <!-- 表单 -->
+    <form action="" method="post">
+        <div class="register">
+            <div class="wrap">
+                <div class="tabbable">
+                    <div class="tab-content">
+                        <div class="tab-pane active clearfix" id="tab1">
+                            <s class="fl">
+                                <p>
+                                    <span class="field-name">用户名</span>
+                                    <input class="input-key" placeholder="用户名" type="text" required=true id="username"/>
+                                    <span></span>
+                                </p>
+
+                                <p>
+                                    <span class="field-name">设置密码</span>
+                                    <input class="input-key" placeholder="6-20位字母、符号或数字" type="password" id="pwd" />
+                                    <span></span>
+                                </p>
+                                <p>
+                                    <span class="field-name">确认密码</span>
+                                    <input class="input input-key" placeholder="再次输入密码" type="password" equalTo="#pwd"
+                                        id="pwd2" />
+                                    <span></span>
+                                </p>
+                                <p>
+                                    <span class="field-name ">手机号</span>
+                                    <input class="input-key" placeholder="请输入您的手机号" type="text" minlength="11"
+                                        maxlength="11" />
+                                    <span></span>
+                                </p>
+                                <p>
+                                    <span class="field-name">邀请码</span>
+                                    <input class="input-key" placeholder="邀请码" type="text" value="" />
+                                    <span></span>
+                                </p>
+                                <p>
+                                    <span class="field-name"></span><label><input type="checkbox" id="reset" />我已阅读并同意
+                                        <a href="" class="">《易果服务协议》</a>
+                                        <a href="" class="">《隐私政策》</a>
+                                        <span></span></label>
+                                    <input type="hidden" value="" class="field-name" />
+                                </p>
+                                <p><span class="field-name"></span><a class="btn-green-l"
+                                        style="background-color: green;width:306px;height:50px;"
+                                        disabled="disabled">立即注册</a>
+                                </p>
+
+                        </div>
+
+                        <div class="fr"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<script src="../js/jquery.validate.messages_zh.js"></script>
+<script src="../js/cookie.js"></script>
+<script>
+    $('form').validate();
+    // console.log($('#reset'));
+    var str=[];
+    $('#reset').on('click', function (){
+        if ($('#reset')[0].checked) {
+            $('.btn-green-l')[0].href = "login.html";
+            console.log($('#username')[0].value);
+            var obj={
+                user:$('#username')[0].value,
+                pass:$('#pwd')[0].value,
+            };
+            str.push(obj);
+            //设置localStorage
+            localStorage.setItem("user",JSON.stringify(str));
+        }
+    })
+
+
+
+</script>
+
+
+</html>

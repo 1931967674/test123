@@ -1,0 +1,42 @@
+[{
+    "img":"../img/list(1).jpg",
+    "name":"新奇士澳大利亚脐橙12个/箱180g以上/个",
+    "price":"88.00",
+    "goodsId":"13"
+},{
+    "img":"../img/list(2).jpg",
+    "name":"越南红心火龙果5个410g以上/个(大果)",
+    "price":"89.00",
+    "goodsId":"14"
+},{
+    "img":"../img/list(3).jpg",
+    "name":"泰国龙眼1kg/盒",
+    "price":"39.90",
+    "goodsId":"15"
+},{
+    "img":"../img/list(4).jpg",
+    "name":"Zespri佳沛新西兰阳光绿奇异果6个105-124g/个",
+    "price":"35.90",
+    "goodsId":"16"
+},{
+    "img":"../img/list(5).jpg",
+    "name":"墨西哥牛油果4个装160g以上/个",
+    "price":"34.90",
+    "goodsId":"17"
+},{
+    "img":"../img/list(6).jpg",
+    "name":"秘鲁蓝莓4盒约125g/盒",
+    "price":"29.90",
+    "goodsId":"18"
+},{
+    "img":"../img/list(7).jpg",
+    "name":"荷兰青啤梨4个(160g以上/个)",
+    "price":"49.90",
+    "goodsId":"19"
+},{
+    "img":"../img/list(7).jpg",
+    "name":"新西兰嘎啦果6个150g以上/个",
+    "price":"29.90",
+    "goodsId":"19"
+}
+]

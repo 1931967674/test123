@@ -1,0 +1,100 @@
+.header {
+    position: relative;
+    left: 0;
+    height: 60px;
+    background: #e0e0e0;
+}
+
+.header .logo {
+    display: block;
+    width: 195px;
+    height: 55px;
+    line-height: 55px;
+}
+
+.header .h-hit {
+    position: absolute;
+    left: 400px;
+    float: right;
+    width: 56px;
+    height: 28px;
+    top: 6px;
+}
+
+.header .h-hit a {
+    color: #008842;
+    font: 28px/1 Microsoft YaHei;
+    line-height: 40px;
+}
+
+.register {
+    padding-top: 30px;
+
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.tabbable {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.register .nav-tabs li {
+    float: left;
+    margin-right: 10px;
+}
+.register .tab-content .tab-pane {
+    padding: 40px 0 50px;
+    border: 1px solid #a5c9b6;
+    border-top: 0;
+    background-color: #fff;
+    display: block;
+    height:400px;
+}
+
+.register p, .forget-pwd p {
+    font: 14px Arial,"Microsoft YaHei";
+}
+.field-name{
+    display:inline-block;
+    width:70px;
+    padding-left:162px;
+    text-align: right;
+}
+
+.input-key {
+    margin:14px;
+    width: 254px;
+    height:30px;
+    line-height:30px;
+}
+
+.btn-green-l{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font: 18px/50px "Microsoft YaHei";
+    margin-top:20px;
+}
+
+.register .fr {
+    width: 330px;
+    height: 272px;
+    padding-top: 50px;
+    font: 14px/56px "Microsoft YaHei";
+    text-align: center;
+    background: url(../img/register.png) 0 0 repeat-y;
+    position:absolute;
+    top:80px;
+    left:750px;
+}
+
+
+
+
+
+

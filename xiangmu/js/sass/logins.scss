@@ -1,0 +1,140 @@
+.header {
+    position: relative;
+    left: 0;
+    height:60px;
+    background: #e0e0e0;
+}
+
+.header .logo {
+    display: block;
+    width: 195px;
+    height: 55px;
+    line-height: 55px;
+}
+
+.header .h-hit {
+    position: absolute;
+    left: 400px;
+    float: right;
+    width: 56px;
+    height: 28px;
+    top: 6px;
+}
+
+.header .h-hit a{
+    color: #008842;
+    font: 28px/1 Microsoft YaHei;
+    line-height: 40px;
+}
+
+/* 表单登录 */
+form{
+    display: block;
+}
+.login {
+    margin: 0;
+    border: none;
+    padding-top: 30px;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+.login .fr {
+    padding-right: 105px;
+    float:right;
+}
+
+.login p {
+    margin-bottom: 20px;
+    font: 12px Arial, "SimSun";
+    color: #878787;
+    position: relative;
+    overflow: hidden;
+    text-align: right;
+}
+
+.login-main {
+    width: 308px;
+    padding: 30px 20px 20px;
+    background-color: #fff;
+    border: 1px solid #e3e6e0;
+}
+
+.login p {
+    margin-bottom: 20px;
+    font: 12px Arial, "SimSun";
+    color: #878787;
+    position: relative;
+    overflow: hidden;
+
+}
+.login-main p {
+    width: 100%;
+}
+
+.login p strong {
+    color: #262626;
+    font: 18px/1 "Microsoft YaHei";
+    float: left;
+}
+
+.login p span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font: 12px Arial, "SimSun";
+    color: #878787
+}
+
+.login input {
+    padding-left: 50px;
+    width: 254px;
+    height:30px;
+    line-height:30px;
+}
+
+
+input[type=checkbox] {
+    margin-right: 9px;
+    height: 14px;
+    width: 14px;
+    float: left;
+}
+
+
+.gray {
+    color: #878787;
+}
+.btn-green-l, .btn-green-s {
+    background: #008842;
+    width: 306px;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font: 18px/50px "Microsoft YaHei";
+}
+
+h3{
+    a{
+        width: 300px;
+        height: 400px;
+        background: #cccccc;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

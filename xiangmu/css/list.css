@@ -1,0 +1,96 @@
+        /* 头部 */
+        .header {
+            width: 1100px;
+            height: 78px;
+        }
+        
+        .header .warp {
+            height: 58px;
+            padding: 15px 0 5px 0;
+        }
+        
+        /* logo图标 */
+        .header .logo {
+            float: left;
+            width: 280px;
+            height: 50px;
+        }
+        
+        .header .logo img {
+            width: 145px;
+            line-height: 50px;
+        }
+        
+        /* 搜索框 */
+        .header .search {
+            width: 528px;
+            height: 58px;
+            float: left;
+            line-height: 26px;
+        }
+        
+        .search .search-input {
+            float: left;
+            width: 425px;
+            height: 26px;
+            line-height: 26px;
+            padding: 0 10px;
+            border: 1px solid #008842;
+            background: #e0e0e0;
+        }
+        
+        .search .search-btn {
+            float: left;
+            display: block;
+            width: 81px;
+            height: 28px;
+            line-height: 28px;
+            padding: 0;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            font-size: 14px;
+            background: #008842;
+        }
+        
+        h3{
+            color: black;
+            border-bottom: 2px solid #008842;
+            font: 20px/32px "";
+            margin:30px;
+        }
+        .cont {
+            width: 1000px;
+            /* border: 2px solid #ccc; */
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .cont .box {
+            width: 250px;
+            text-align: center;
+            /* border: 1px solid #ddd; */
+            float: left;
+            box-sizing: border-box;
+
+        }
+
+        .box img {
+            width: 70%;
+        }
+
+        .box p {
+            margin: 6px 0;
+            line-height: 20px;
+            height: 40px;
+            overflow: hidden;
+        }
+
+        .box span {
+            display: block;
+        }
+
+        .box input {
+            display: block;
+            margin: 0 auto;
+        }
+     

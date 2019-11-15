@@ -1,0 +1,139 @@
+/* 头部 */
+.header {
+    width: 1100px;
+    height: 78px;
+}
+
+.header .warp {
+    height: 58px;
+    padding: 15px 0 5px 0;
+}
+
+/* logo图标 */
+.header .logo {
+    float: left;
+    width: 280px;
+    height: 50px;
+}
+
+.header .logo img {
+    width: 145px;
+    line-height: 50px;
+}
+
+/* 搜索框 */
+.header .search {
+    width: 528px;
+    height: 58px;
+    float: left;
+    line-height: 26px;
+}
+
+.search .search-input {
+    float: left;
+    width: 425px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    border: 1px solid #008842;
+    background: #e0e0e0;
+}
+
+.search .search-btn {
+    float: left;
+    display: block;
+    width: 81px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    background: #008842;
+}
+
+.sitr {
+    height: 30px;
+}
+
+.sitr h3 {
+    color: #000;
+    font: 20px/32px "";
+    border-bottom: 2px solid #cccccc;
+}
+
+.box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background: url(../img/dotpng.png);
+}
+
+#wrap {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 164px;
+    left: 100px;
+    border: 1px solid #000;
+}
+
+#wrap img {
+    width: 400px;
+    height: 400px;
+}
+
+#bigArea {
+    display: none;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 164px;
+    left: 600px;
+    background: url(../img/product\(2\).jpg) no-repeat;
+    border: 1px solid #000;
+}
+
+.product-into {
+    height: 400px;
+    width: 700px;
+    float: right;
+    padding-top: 30px;
+    text-align: left;
+
+}
+.summary-name p {
+    height: 40px;
+    margin-top: 5px;
+    color: #777;
+    font: normal 16px/20px "Microsoft YaHei";
+}
+.pro-m2 {
+    border-top: 1px solid #e2e2e2;
+    margin-top: 10px;
+    padding-top: 10px;
+    width:600px;
+    color: grey;
+}
+
+.summary-price strong{
+    color: red;
+    font: 20px/32px "";
+    text-align: center;
+}
+
+.pro-t button{
+    height: 40px;
+    width:200px;
+    color:#e0e0e0;
+    background: grey;
+    text-align: center;
+    border:none;
+    margin-top:100px;
+}
+
+
